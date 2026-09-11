@@ -1,8 +1,9 @@
 const navLinks = [
   { label: "About", href: "/#about" },
-  { label: "Divisions", href: "/#divisions" },
-  { label: "Settlement Tech", href: "/#settlement-tech" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Solutions", href: "/#solutions" },
+  { label: "White-Label", href: "/#white-label" },
+  { label: "Cybersecurity", href: "/#solutions" },
+  { label: "Consulting", href: "/#contact" },
 ]
 
 export function SiteHeader() {
@@ -37,9 +38,9 @@ export function SiteHeader() {
 
         <a
           href="/#contact"
-          className="rounded-lg bg-gradient-to-br from-emerald-600 to-emerald-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
+          className="rounded-lg bg-gradient-to-br from-emerald-600 to-emerald-700 px-5 py-2.5 text-sm font-semibold text-white! shadow-sm transition-opacity hover:opacity-90"
         >
-          Inquire
+          Demo
         </a>
       </div>
     </header>

@@ -1,7 +1,7 @@
 const footerLinks = [
-  { label: "Privacy Policy", href: "#" },
+  { label: "Privacy Policy", href: "/privacy" },
   { label: "Terms of Service", href: "/terms" },
-  { label: "Compliance", href: "#" },
+  { label: "Compliance", href: "/#solutions" },
 ]
 
 export function SiteFooter() {

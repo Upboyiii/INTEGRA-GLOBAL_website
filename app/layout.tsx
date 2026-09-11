@@ -3,9 +3,9 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Integra Global Industries Limited',
-  description:
-    'Enterprise infrastructure, multi-jurisdiction commodity trading, strategic advisory, and next-generation transaction settlement infrastructure.',
+  title: 'Integra Global | Enterprise Software & White-Label Solutions',
+  description: 'Modular enterprise software, turnkey white-label platforms, cybersecurity, and technology consulting by Integra Global Industries Limited.',
+  generator: 'v0.app',
   icons: {
     icon: [
       {
@@ -39,16 +39,16 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="bg-background">
+    <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased font-sans">
+      <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
